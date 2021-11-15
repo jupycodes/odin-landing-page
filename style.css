@@ -71,10 +71,11 @@ button {
     color: white;
     font-size: 18px;
     border-radius: 8px;
+    border: none;
     margin: 4px 2px;
     padding: 8px;
-    border: none;
-    max-width: 150px;
+    width: 150px;
+    height: 40px;
 }
 
 .content-1-text {
@@ -107,7 +108,9 @@ button {
     height:200px;
     width: 200px;
     object-fit: cover;
-    padding: 16px;    
+    margin: 16px;
+    border-radius: 25px; 
+    border: 2px solid #3882F6;
 }
 
 .img2 {
@@ -139,5 +142,32 @@ button {
     font-weight: 600;
     padding-top: 18px;
     padding-bottom:100px;
-    
+}
+
+.content-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 80px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 18px;
+    padding: 20px;
+    max-width: 800px;
+
+}
+
+.content-4-main-text {
+    padding-right: 40px;
+    color: white;
+}
+
+.content-4-text-1 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sign-up-2 {
+    border: 2px solid white;
 }
