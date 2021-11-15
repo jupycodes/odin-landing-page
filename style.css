@@ -46,6 +46,7 @@ body {
     background-color:#1F2937;
     color:#f9faf8;
     padding: 50px;
+    padding-bottom: 90px;
     gap: 30px;
 }
 
@@ -170,4 +171,12 @@ button {
 
 .sign-up-2 {
     border: 2px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
