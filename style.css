@@ -1,3 +1,5 @@
+/* Section: HEADER */
+
 .header {
     background-color: #1F2937;
     color: #f9faf8;
@@ -32,6 +34,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Section: CONTENT 1 */
 
 .content-1 {
     display: flex;
@@ -81,6 +85,8 @@ button {
     max-width: 300px;
 }
 
+/* Section: CONTENT 2 */
+
 .content-2-header {
     font-size: 2.3vw;
     font-weight: 900;
@@ -101,7 +107,7 @@ button {
     height:200px;
     width: 200px;
     object-fit: cover;
-    padding: 25px;    
+    padding: 16px;    
 }
 
 .img2 {
@@ -111,3 +117,27 @@ button {
     object-position: 0% 0;
 }
 
+/* Section: CONTENT 3 */
+
+.content-3 {
+    background-color: #E5E7EB;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-3-text{
+    font-size: 24px;
+    font-style: italic;
+    padding-top: 100px;
+    width: 700px;
+    text-align: center;
+}
+
+.content-3-end-quote {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 18px;
+    padding-bottom:100px;
+    
+}
